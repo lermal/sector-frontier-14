@@ -170,24 +170,21 @@ public sealed partial class ShuttleConsoleSystem
         StartEndTime ftlTime = default;
         if (shuttleGridUid != null)
         {
-            var now = IoCManager.Resolve<IGameTiming>().CurTime;
-            var query = AllEntityQuery<BluespaceDriveComponent, TransformComponent>();
-            while (query.MoveNext(out var uid, out var drive, out var xform))
-            {
-                if (xform.GridUid != shuttleGridUid) continue;
-                var remaining = (float)Math.Max(0, (drive.CooldownEndsAt - now).TotalSeconds);
-                if (remaining > cooldown) cooldown = remaining;
-                if (drive.CooldownSeconds > cooldownTotal) cooldownTotal = drive.CooldownSeconds;
-            }
             try
             {
                 var ms = GetMapState(shuttleGridUid.Value);
                 ftlState = ms.FTLState;
                 ftlTime = ms.FTLTime;
+                if (ftlState == FTLState.Cooldown)
+                {
+                    var now = IoCManager.Resolve<IGameTiming>().CurTime;
+                    cooldown = (float)Math.Max(0, (ms.FTLTime.End - now).TotalSeconds);
+                    if (ms.FTLTime.Start != default && ms.FTLTime.End > ms.FTLTime.Start) cooldownTotal = (float)(ms.FTLTime.End - ms.FTLTime.Start).TotalSeconds;
+                }
             }
             catch
             {
-                ftlState = cooldown > 0f ? FTLState.Cooldown : FTLState.Available;
+                ftlState = FTLState.Available;
                 ftlTime = default;
             }
         }
