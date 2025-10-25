@@ -1996,3 +1996,22 @@ Entries:
   id: 146
   time: '2025-10-25T07:18:19.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/308
+- author: LeptonComm
+  changes:
+    - type: Tweak
+      message: Ремап МЦ
+    - type: Tweak
+      message: Возвращен медицинский шаттл Seagull, получивший значительный ремап
+    - type: Tweak
+      message: >-
+        Коэффициент награды за медицинские контракты (сдачу тел) был значительно
+        увеличен (теперь такой вид работы должен приносить ощутимый заработок)
+    - type: Tweak
+      message: >-
+        Роли мед. отдела фронтира, за исключением 1 врача и 1 химика были
+        перекинуты на МЦ
+    - type: Tweak
+      message: Количество ролей парамедика на МЦ было увеличено до 5
+  id: 147
+  time: '2025-10-25T07:35:37.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/305
