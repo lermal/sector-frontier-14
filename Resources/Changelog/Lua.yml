@@ -2098,3 +2098,14 @@ Entries:
   id: 154
   time: '2025-10-25T09:27:45.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/317
+- author: LeptonComm
+  changes:
+    - type: Fix
+      message: На шаттлах фиш, хантер, скиф исправлено электропитание
+    - type: Tweak
+      message: На шаттлах фиш, ильмус переработано освещение
+    - type: Tweak
+      message: На шаттл фиш возвращены гипо, аптечки, пробирка плазмы, мензурки, мешки
+  id: 155
+  time: '2025-10-25T14:39:01.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/299
