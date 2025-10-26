@@ -2169,3 +2169,10 @@ Entries:
   id: 159
   time: '2025-10-26T11:30:57.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/324
+- author: salo2016
+  changes:
+    - type: Tweak
+      message: L-20 Apollo Heavy Laser Cannon хп 20.000<275.000
+  id: 160
+  time: '2025-10-26T11:36:28.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/325
