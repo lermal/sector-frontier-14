@@ -2351,3 +2351,10 @@ Entries:
   id: 172
   time: '2025-11-07T15:39:21.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/356
+- author: ressuw
+  changes:
+    - type: Tweak
+      message: Изменены торпеды у Huke
+  id: 173
+  time: '2025-11-07T15:46:47.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/350
