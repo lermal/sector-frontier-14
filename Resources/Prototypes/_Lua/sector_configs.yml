@@ -6,8 +6,8 @@
   station: Beacon # id прототипа нашего грида, основной карты сектора, будь то маяк норд или тортуга
   worldgenConfig: AsteroidSectorDefault # будут ли в нашем секторе спавнится астероиды, тут указывается тип спавна астероидов, есть 2 типа Default где их минимум и AsteroidSectorDefault, где их обилие и большие размеры
   autoStart: true # Необходим для основной группы секторов, более понятно для чего и зачем не буду пояснять, просто включайте если используете в стандартном режиме игры, выключить если не нужно загружать сектор
-  defaultGamePreset: NFPirates # Режим игры который мы используем по дефолту на нашем фронтире
-  requiredGamePresets: [ NFPirates, LuaAdventure ] # Сектор будет автоматически загружаться только в перечисленных режимах
+  defaultGamePreset: NFPirate # Режим игры который мы используем по дефолту на нашем фронтире
+  requiredGamePresets: [ NFPirate, LuaAdventure ] # Сектор будет автоматически загружаться только в перечисленных режимах
   parallaxPool: [ MercenaryPlanet, LuaDarkSpace, LuaSpace, AspidParallax, BagelStation, CoreStation, OriginStation, TrainStation, KettleStation, Sky, Asteroids, Default ] # задний фон сектора, выбирается случайным образом
   deadDropEnabled: true # Включаем систему DeadDrop для сектора
   deadDropCount: 8 # Максимальное количество DeadDrop на сектор
@@ -29,8 +29,8 @@
   station: Typan
   worldgenConfig: Default
   autoStart: true
-  defaultGamePreset: NFPirates
-  requiredGamePresets: [ NFPirates ]
+  defaultGamePreset: NFPirate
+  requiredGamePresets: [ NFPirate ]
   parallaxPool: [ OriginStation, NordFoll ]
   deadDropEnabled: false
   poiGroups:
@@ -63,8 +63,8 @@
   station: LuaTech
   #worldgenConfig: Default отключено до реализации LuaTech
   autoStart: true
-  defaultGamePreset: NFPirates
-  requiredGamePresets: [ NFPirates, LuaAdventure ]
+  defaultGamePreset: NFPirate
+  requiredGamePresets: [ NFPirate, LuaAdventure ]
   parallaxPool: [ LuaDarkSpace ]
   deadDropEnabled: false
   starmapPosition: 14.5, 2.0
@@ -75,8 +75,8 @@
   name: "Сектор Пиратов"
   station: Cove
   autoStart: true
-  defaultGamePreset: NFPirates
-  requiredGamePresets: [ NFPirates ]
+  defaultGamePreset: NFPirate
+  requiredGamePresets: [ NFPirate ]
   parallaxPool: [ CoreStation, Tortuga ]
   deadDropEnabled: true
   deadDropCount: 2
@@ -101,8 +101,8 @@
   name: "Сектор Наёмников"
   station: MercMap
   autoStart: true
-  defaultGamePreset: NFPirates
-  requiredGamePresets: [ NFPirates, LuaAdventure ]
+  defaultGamePreset: NFPirate
+  requiredGamePresets: [ NFPirate, LuaAdventure ]
   parallaxPool: [ MercenaryPlanet, Sky ]
   deadDropEnabled: true
   deadDropCount: 1
