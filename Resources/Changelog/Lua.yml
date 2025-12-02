@@ -2648,3 +2648,15 @@ Entries:
   id: 194
   time: '2025-11-27T14:00:43.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/375
+- author: fox76055
+  changes:
+    - type: Add
+      message: Guidebook for NT-Wyvern
+    - type: Tweak
+      message: >-
+        Concord-Wyvern название -> NT-Wyvern. Цена 530000 -> 391000 (Накрутка:
+        100000). Полный ремап внутренней части корабля с учётом отзывов игроков
+        о ней.
+  id: 195
+  time: '2025-12-02T09:24:10.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/351
