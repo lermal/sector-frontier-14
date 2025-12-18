@@ -1,0 +1,225 @@
+{
+  "renders_path": "renders/poi/",
+  "categories": {
+    "ScienceLab": [
+      {
+        "id": "AnomalousGeode",
+        "name": "Anomalous Geode",
+        "image": "anomalousgeode.png",
+        "price": 0,
+        "description": "",
+        "category": "Small",
+        "class": [],
+        "engines": []
+      }
+    ],
+    "RestStop": [
+      {
+        "id": "Bahama",
+        "name": "Bahama Mama's",
+        "image": "bahama.png",
+        "price": 0,
+        "description": "",
+        "category": "Small",
+        "class": [],
+        "engines": []
+      },
+      {
+        "id": "Tinnia",
+        "name": "Tinnia's Rest",
+        "image": "tinnia.png",
+        "price": 0,
+        "description": "",
+        "category": "Small",
+        "class": [],
+        "engines": []
+      }
+    ],
+    "Required": [
+      {
+        "id": "BarrierGate",
+        "name": "Barrier Gate",
+        "image": "barriergate.png",
+        "price": 0,
+        "description": "",
+        "category": "Small",
+        "class": [],
+        "engines": []
+      },
+      {
+        "id": "Courthouse",
+        "name": "Courthouse",
+        "image": "courthouse.png",
+        "price": 0,
+        "description": "",
+        "category": "Small",
+        "class": [],
+        "engines": []
+      },
+      {
+        "id": "Cove",
+        "name": "Pirate Cove",
+        "image": "cove.png",
+        "price": 0,
+        "description": "",
+        "category": "Small",
+        "class": [],
+        "engines": []
+      },
+      {
+        "id": "Edison",
+        "name": "Edison Power Plant",
+        "image": "edison.png",
+        "price": 0,
+        "description": "",
+        "category": "Small",
+        "class": [],
+        "engines": []
+      },
+      {
+        "id": "Lodge",
+        "name": "Expeditionary Lodge",
+        "image": "lodge.png",
+        "price": 0,
+        "description": "",
+        "category": "Small",
+        "class": [],
+        "engines": []
+      },
+      {
+        "id": "Medical",
+        "name": "Medical Dispatch",
+        "image": "medical.png",
+        "price": 0,
+        "description": "",
+        "category": "Small",
+        "class": [],
+        "engines": []
+      },
+      {
+        "id": "Nfsd",
+        "name": "NFSD Outpost",
+        "image": "nfsd.png",
+        "price": 0,
+        "description": "",
+        "category": "Small",
+        "class": [],
+        "engines": []
+      }
+    ],
+    "Unknown": [
+      {
+        "id": "CaseysCasino",
+        "name": "Crazy Casey's Casino",
+        "image": "caseyscasino.png",
+        "price": 0,
+        "description": "",
+        "category": "Small",
+        "class": [],
+        "engines": []
+      },
+      {
+        "id": "Omnichurch",
+        "name": "Omnichurch Beacon",
+        "image": "omnichurch.png",
+        "price": 0,
+        "description": "",
+        "category": "Small",
+        "class": [],
+        "engines": []
+      },
+      {
+        "id": "Frontier",
+        "name": "Frontier Outpost",
+        "image": "frontier.png",
+        "price": 0,
+        "description": "",
+        "category": "Small",
+        "class": [],
+        "engines": []
+      }
+    ],
+    "CargoDepot": [
+      {
+        "id": "CargoDepot",
+        "name": "Cargo Depot",
+        "image": "cargodepot.png",
+        "price": 0,
+        "description": "",
+        "category": "Small",
+        "class": [],
+        "engines": []
+      }
+    ],
+    "Scrapyard": [
+      {
+        "id": "Grifty",
+        "name": "Grifty's Gas n Grub",
+        "image": "grifty.png",
+        "price": 0,
+        "description": "",
+        "category": "Small",
+        "class": [],
+        "engines": []
+      },
+      {
+        "id": "McHobo",
+        "name": "Derelict McCargo",
+        "image": "mchobo.png",
+        "price": 0,
+        "description": "",
+        "category": "Small",
+        "class": [],
+        "engines": []
+      }
+    ],
+    "SyndicateFOB": [
+      {
+        "id": "LPBravo",
+        "name": "Listening Point Bravo",
+        "image": "lpbravo.png",
+        "price": 0,
+        "description": "",
+        "category": "Small",
+        "class": [],
+        "engines": []
+      }
+    ],
+    "Christmas": [
+      {
+        "id": "NorthPole",
+        "name": "The North Pole",
+        "image": "northpole.png",
+        "price": 0,
+        "description": "",
+        "category": "Small",
+        "class": [],
+        "engines": []
+      }
+    ],
+    "Arena": [
+      {
+        "id": "ThePit",
+        "name": "The Pit",
+        "image": "thepit.png",
+        "price": 0,
+        "description": "",
+        "category": "Small",
+        "class": [],
+        "engines": []
+      }
+    ],
+    "MarketStation": [
+      {
+        "id": "TradeMall",
+        "name": "Trade Mall",
+        "image": "trademall.png",
+        "price": 0,
+        "description": "",
+        "category": "Small",
+        "class": [],
+        "engines": []
+      }
+    ]
+  }
+}
